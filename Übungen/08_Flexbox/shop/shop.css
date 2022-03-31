@@ -1,0 +1,58 @@
+html {
+    background-color: white;
+    font-size: 14pt;
+    font-family: sans-serif;
+}
+
+.kachel-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(2);
+    grid-template-rows: auto;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    align-content: stretch;
+}
+
+.kachel {
+    border: 1px solid black;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+}
+
+img {
+    /*display: none;
+    */
+    width: 90%;
+    margin: 5%;
+}
+
+.kachel h2 {
+    order: 2;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.kachel ul {
+    order: 3;
+    font-size: 1.17rem;
+}
+
+.kachel button {
+    order: 4;
+    margin: 2.5%;
+    background-color: rgb(160, 0, 0);
+    color: white;
+    font-size: 1.17rem;
+    width: 95%;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    align-self: flex-end;
+}
+
+.kachel button:hover {
+    background-color: rgb(170, 0, 0);
+}
