@@ -43,6 +43,7 @@ img {
 .kachel button {
     order: 4;
     margin: 2.5%;
+    margin-top: auto;
     background-color: rgb(160, 0, 0);
     color: white;
     font-size: 1.17rem;
@@ -50,7 +51,6 @@ img {
     border-radius: 10px;
     border: none;
     height: 50px;
-    align-self: flex-end;
 }
 
 .kachel button:hover {
